@@ -3,9 +3,11 @@
 # datatype:
 # - {name: WFI Position, unit: '', datatype: string, description: 'Position on Roman/WFI: Centerfield (near the center of WFI) or Sensor
 #     Chip Assembly (SCA) center'}
-# - {name: Grism blue edge (nm), unit: nm, datatype: float64, description: Blue edge of the grism}
-# - {name: Grism red edge (nm), unit: nm, datatype: float64, description: Red edge of the grism}
+# - {name: Grism blue edge (nm), unit: nm, datatype: float64, description: Blue edge of the grism (50% transmission)}
+# - {name: Grism red edge (nm), unit: nm, datatype: float64, description: Red edge of the grism (50% transmission)}
 # delimiter: ','
+# meta: !!omap
+# - {comments: Roman/WFI Grism blue and red edges for each Sensor Chip Assembly}
 # schema: astropy-2.0
 WFI Position,Grism blue edge (nm),Grism red edge (nm)
 Centerfield,998.6230622,1919.726727

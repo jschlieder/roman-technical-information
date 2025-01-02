@@ -1,8 +1,8 @@
 # %ECSV 1.0
 # ---
 # datatype:
-# - {name: SCA, unit: '', datatype: int16, description: Sensor Chip Assembly (SCA)}
-# - {name: Wavelength, unit: nm, datatype: int16, description: Wavelength}
+# - {name: SCA, unit: '', datatype: int64, description: Sensor Chip Assembly (SCA)}
+# - {name: Wavelength, unit: nm, datatype: int64, description: Wavelength}
 # - {name: Image x, unit: mm, datatype: float64, description: Absolute image location (x-coordinate)}
 # - {name: Image y, unit: mm, datatype: float64, description: Absolute image location (y-coordinate)}
 # - {name: Relative position x, unit: mm, datatype: float64, description: Relative image location (x-coordinate)}
@@ -10,6 +10,8 @@
 # - {name: RSS, unit: mm, datatype: float64, description: Residual sum of squares}
 # - {name: Dispersion, unit: nm / pix, datatype: float64, description: Dispersion}
 # delimiter: ','
+# meta: !!omap
+# - {comments: 'Roman/WFI Grism dispersion as a function of sensor chip assembly, wavelength, and position'}
 # schema: astropy-2.0
 SCA,Wavelength,Image x,Image y,Relative position x,Relative position y,RSS,Dispersion
 1,1000,0.247222,-5.37697,0.0,0.0,0.0,nan

@@ -1,11 +1,13 @@
 # %ECSV 1.0
 # ---
 # datatype:
-# - {name: Wavelength, unit: nm, datatype: int16, description: Wavelength}
-# - {name: order, unit: '', datatype: int16, description: 'Order - note: the first order has the highest throughput and therefore will
-#     be used for spectral tracing'}
+# - {name: Wavelength, unit: nm, datatype: int64, description: Wavelength}
+# - {name: order, unit: '', datatype: int64, description: 'Order - note: the first order has the highest throughput and is the primary
+#     order used for grism science'}
 # - {name: Absolute Throughput, unit: '', datatype: float64, description: Absolute Throughput (single scattering)}
 # delimiter: ','
+# meta: !!omap
+# - {comments: Roman/WFI Grism absolute throughput as a function of wavelength and order}
 # schema: astropy-2.0
 Wavelength,order,Absolute Throughput
 1000,-1,0.007945897

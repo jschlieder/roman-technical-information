@@ -4,7 +4,7 @@
 
 | Filename | Description |
 | -------- | ----------- |
-| Tel_Grism_dispersion_18Scas_filterAiming_241106.ecsv | Roman/WFI grism dispersions as a function of location on the sensor chip assembly (SCA)
-| Tel_prism_dispersion_18Scas_filterAiming_241106.ecsv | Roman/WFI prism dispersions as a function of location on the sensor chip assembly (SCA)|
+| WFI_Grism_dispersion.ecsv | Roman/WFI grism dispersions as a function of location on the sensor chip assembly (SCA) |
+| WFI_Prism_dispersion.ecsv | Roman/WFI prism dispersions as a function of location on the sensor chip assembly (SCA)|
 
  
